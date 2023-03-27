@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}DUCKNET: Account{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+</div>
+<div class="body_first_stage">
+    <div class="navbar">
+
+    </div>
+    <div class="main_title"><h1>My Account </h1></div>
+    <div class="account_content">
+        <ul>
+            <li><button name="new_quack_btn"><a href="quack/new">Say a Quack</a></button></li>
+            <li><button name="account_quackList_btn"><a href="quack">Read some quacks</a></button></li>
+            <li><button name="edit_btn"><a href="duck/edit">Edit your duck</a></button> </li>
+            <li><button name="account_logout_btn">Rest in the nest</button></li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
